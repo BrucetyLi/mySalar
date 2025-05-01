@@ -1,0 +1,3 @@
+person:
+  index: 1
+  info: {"name": "XYZ", "age": 28}

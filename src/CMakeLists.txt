@@ -1,0 +1,13 @@
+
+aux_source_directory(. SRC_LIST)
+aux_source_directory(../http HTTP_SRC)
+find_library(YAMLCPP yaml-cpp)
+find_library(PTHREAD pthread)
+find_library(OPENSSL_SSL ssl)
+find_library(OPENSSL_CRYPTO crypto)
+find_library(DL dl)
+find_library(PROTOBUF protobuf)
+find_library(JSON jsoncpp)
+# add_executable(test test.cc log.cc)
+add_executable(test ${SRC_LIST} ${HTTP_SRC})
+target_link_libraries(test ${YAMLCPP} ${PTHREAD} ${DL} ${OPENSSL_SSL} ${OPENSSL_CRYPTO} ${PROTOBUF} ${JSON}) 

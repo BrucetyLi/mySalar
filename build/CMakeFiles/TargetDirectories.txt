@@ -1,0 +1,5 @@
+/mnt/d/vs_proj/mySylar/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/vs_proj/mySylar/build/CMakeFiles/edit_cache.dir
+/mnt/d/vs_proj/mySylar/build/src/CMakeFiles/rebuild_cache.dir
+/mnt/d/vs_proj/mySylar/build/src/CMakeFiles/edit_cache.dir
+/mnt/d/vs_proj/mySylar/build/src/CMakeFiles/test.dir
